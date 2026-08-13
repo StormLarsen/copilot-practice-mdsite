@@ -1,0 +1,16 @@
+{
+  "name": "copilot-practice-mdsite",
+  "version": "1.0.0",
+  "description": "Small markdown-to-static-site generator",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^18.0.9"
+  }
+}
