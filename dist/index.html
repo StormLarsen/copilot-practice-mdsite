@@ -11,6 +11,12 @@
     a { color: #0b57d0; }
     article, nav { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
     article + nav, nav + article { margin-top: 1rem; }
+    @media print {
+      body { background: #fff; color: #000; }
+      main { max-width: 100%; padding: 0; }
+      main > p, a[href]::after { display: none; }
+      article { box-shadow: none; border-radius: 0; padding: 0; }
+    }
   </style>
 </head>
 <body>
