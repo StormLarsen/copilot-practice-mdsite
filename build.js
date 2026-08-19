@@ -31,7 +31,7 @@ function wrapPage(title, body, includeBackLink) {
     @media print {
       body { background: #fff; color: #000; }
       main { max-width: 100%; padding: 0; }
-      nav, a[href]::after { display: none; }
+      main > p, a[href]::after { display: none; }
       article { box-shadow: none; border-radius: 0; padding: 0; }
     }
   </style>
